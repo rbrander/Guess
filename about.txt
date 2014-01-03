@@ -1,0 +1,41 @@
+ Guess
+~~~~~~~
+
+A game about guessing the right answer
+
+Goal: Guess the right answer
+
+Challenge: number of options opens up as level increases
+
+Chance: 1 in n chance of guessing right
+
+Award: score
+
+Round:
+- Opponent picks an answer, keeps it a secret
+- Player guesses until correct answer is found
+- More points for finding answer quickly
+- Opponent answers with yes/no
+- Round ends if player correctly guessed the answer
+
+Improvements:
+- binary search indicator
+	- if level 1, could indicate which half has answer
+	- if level 2, could indicate which quarter has answer
+	- if level 3, could indicate which eigth has answer
+- use wins to buy disposable upgrades
+- increase range randomly each turn with range limits increasing each player level
+- disposible upgrades: 
+	- for this turn only, provide hot/cold for x guesses
+	- head start: find out which half of range holds answer
+	- 
+	
+
+	
+Version History
+~~~~~~~~~~~~~~~
+
+v1.0 
+	- initial bare-bones impelmentation
+	- pick a number between 1 and 5
+	- five buttons

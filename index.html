@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.0//EN" "http://www.w3.org/TR/xhtml-basic/xhtml-basic10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Guess</title>
+	  <link rel=stylesheet href="stylesheet.css" />
+	  <script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+	  <script type="text/javascript">$j = jQuery.noConflict();</script>
+	  <script type="text/javascript" src="javascript.js"></script>
+   </head>
+   <body>
+		<div class="box">
+			<h1>Guess</h1>
+			<hr />
+			<div id="divGameContents">
+				<br />
+				<div>Guess a number between 1 and 5</div>
+				<br />
+				<div id="buttonSelectors">
+					<button class="btnGuess" type="button" onclick="Game.GuessAnswer(1)">1</button>
+					<button class="btnGuess" type="button" onclick="Game.GuessAnswer(2)">2</button>
+					<button class="btnGuess" type="button" onclick="Game.GuessAnswer(3)">3</button>
+					<button class="btnGuess" type="button" onclick="Game.GuessAnswer(4)">4</button>
+					<button class="btnGuess" type="button" onclick="Game.GuessAnswer(5)">5</button>
+				</div>
+			</div>
+		</div>
+   </body>
+</html>
