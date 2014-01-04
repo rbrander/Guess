@@ -39,3 +39,7 @@ v1.0
 	- initial bare-bones impelmentation
 	- pick a number between 1 and 5
 	- five buttons
+	
+v1.1
+	- dynamically generate the buttons
+	- randomly pick upper range between 5 and 10
