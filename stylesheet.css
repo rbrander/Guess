@@ -8,7 +8,7 @@ body {
 .box {
 	border: 1px solid black;
 	padding: 20px;
-	margin: 20px auto;
+	margin: 1em auto;
 	width: 500px;
 	background-color: beige;
 	text-align: center;
@@ -18,3 +18,14 @@ body {
 .btnGuess {
 	width: 50px;
 }
+
+
+.hidden { display:none; }
+
+
+#divGameMessage { margin-top: 1em; }
+
+.good { color: green; }
+.bad { color: red; }
+.ugly { color: #888; }
+

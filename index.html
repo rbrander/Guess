@@ -11,20 +11,16 @@
 		<div class="box">
 			<h1>Guess</h1>
 			<hr />
-			<div id="divGameContents">
+			<br />
+			<div id="divGameContents" class="hidden">
+				<div>Round #<span id="spanRoundNum"></span></div>
+				<div>Guess a number between <span id="spanMinRange"></span> and <span id="spanMaxRange"></span></div>
 				<br />
-				<div>Guess a number between 1 and 5</div>
-				<br />
-				<div id="buttonSelectors" />
-				<!--
-				<div id="buttonSelectors">
-					<button class="btnGuess" type="button" onclick="Game.GuessAnswer(1)">1</button>
-					<button class="btnGuess" type="button" onclick="Game.GuessAnswer(2)">2</button>
-					<button class="btnGuess" type="button" onclick="Game.GuessAnswer(3)">3</button>
-					<button class="btnGuess" type="button" onclick="Game.GuessAnswer(4)">4</button>
-					<button class="btnGuess" type="button" onclick="Game.GuessAnswer(5)">5</button>
-				</div>
-				-->
+				<div id="buttonSelectors"></div>
+				<div id="divGameMessage" class="hidden"></div>
+			</div>
+			<div id="divMainMenu">
+				<button type="button" onclick="Game.NewGame()">Start New Game</button>
 			</div>
 		</div>
    </body>

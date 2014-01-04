@@ -43,3 +43,10 @@ v1.0
 v1.1
 	- dynamically generate the buttons
 	- randomly pick upper range between 5 and 10
+
+v1.2
+	- add main menu: start game
+	- add round counter
+	- display win/loss messages in a div, instead of alert
+
+	
